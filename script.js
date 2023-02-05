@@ -16,6 +16,7 @@ function takecode(input){
         for(let x =0; x<buttons.length;x++){
             buttons[x].style.backgroundColor="lightgreen";
         }
+        setTimeout(closedoor,10000)
         
     }
     if(answer!= code & count==4){
