@@ -37,7 +37,7 @@ function closedoor(){
 
 function deletecode(){
     if(answer.length>0){
-        answer.slice(0, -1)
+        answer= answer.slice(0, -1)
         count--;
     }
     if(count==4){
